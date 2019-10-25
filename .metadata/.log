@@ -1,0 +1,1131 @@
+!SESSION 2019-10-21 10:24:32.071 -----------------------------------------------
+eclipse.buildId=4.3.1.201907120711-RELEASE
+java.version=11.0.4
+java.vendor=Debian
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-10-21 10:24:55.355
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-10-21 10:24:56.149
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-10-21 10:24:56.149
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e1e7bc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bd1098,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2019-10-21 14:20:09.049
+!MESSAGE Process returned with error code "2".
+Command line arguments: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe -Xmx16m -classpath /home/accoica/Documents/eclipse/spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-linux.gtk.x86_64/sts-4.3.1.RELEASE/configuration/org.eclipse.osgi/238/0/.cp/lib/launchingsupport.jar org.eclipse.jdt.internal.launching.support.LibraryDetector
+Output: Standard output:
+
+Standard error:
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 1: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: MZ����@���: not found
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 2: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: $0�!UQ�rUQ�rUQ�rFY�rQ�rP]�rWQ�rP]�rBQ�rFY�rWQ�r�Y�rPQ�rUQ�r=Q�rP]�r�Q�r�Z�rTQ�rP]�rTQ�rRichUQ�rPEL��L�: not found
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 3: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: Syntax error: ")" unexpected
+
+!STACK 0
+java.lang.IllegalStateException: Process returned with error code "2".
+Command line arguments: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe -Xmx16m -classpath /home/accoica/Documents/eclipse/spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-linux.gtk.x86_64/sts-4.3.1.RELEASE/configuration/org.eclipse.osgi/238/0/.cp/lib/launchingsupport.jar org.eclipse.jdt.internal.launching.support.LibraryDetector
+Output: Standard output:
+
+Standard error:
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 1: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: MZ����@���: not found
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 2: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: $0�!UQ�rUQ�rUQ�rFY�rQ�rP]�rWQ�rP]�rBQ�rFY�rWQ�r�Y�rPQ�rUQ�r=Q�rP]�r�Q�r�Z�rTQ�rP]�rTQ�rRichUQ�rPEL��L�: not found
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 3: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: Syntax error: ")" unexpected
+
+	at org.eclipse.jdt.internal.launching.StandardVMType.checkProcessResult(StandardVMType.java:914)
+	at org.eclipse.jdt.internal.launching.StandardVMType.generateLibraryInfo(StandardVMType.java:728)
+	at org.eclipse.jdt.internal.launching.StandardVMType.getLibraryInfo(StandardVMType.java:240)
+	at org.eclipse.jdt.internal.launching.StandardVMType.getDefaultLibraryLocations(StandardVMType.java:457)
+	at org.eclipse.jdt.internal.launching.StandardVMType.canDetectDefaultSystemLibraries(StandardVMType.java:267)
+	at org.eclipse.jdt.internal.launching.StandardVMType.validateInstallLocation(StandardVMType.java:661)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$5.run(StandardVMPage.java:201)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage.validateJRELocation(StandardVMPage.java:204)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage.access$1(StandardVMPage.java:183)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$2.modifyText(StandardVMPage.java:139)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1405)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2724)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2650)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$3.widgetSelected(StandardVMPage.java:157)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock.addVM(InstalledJREsBlock.java:738)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock.access$9(InstalledJREsBlock.java:735)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock$8.handleEvent(InstalledJREsBlock.java:488)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.widgetDefaultSelected(NewJavaProjectWizardPageOne.java:632)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.widgetSelected(NewJavaProjectWizardPageOne.java:622)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1560)
+	at org.eclipse.swt.widgets.Link.gtk_button_release_event(Link.java:394)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2222)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6814)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4166)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1429)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1585)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4661)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper$1.linkActivated(EmptyWorkspaceHelper.java:269)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2019-10-21 14:20:09.069
+!MESSAGE Failed to retrieve default libraries for /media/accoica/data/Java/jdk1.6.0_22
+
+!ENTRY org.eclipse.jdt.launching 4 4 2019-10-21 14:20:09.125
+!MESSAGE Process returned with error code "2".
+Command line arguments: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe -Xmx16m -classpath /home/accoica/Documents/eclipse/spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-linux.gtk.x86_64/sts-4.3.1.RELEASE/configuration/org.eclipse.osgi/238/0/.cp/lib/launchingsupport.jar org.eclipse.jdt.internal.launching.support.LibraryDetector
+Output: Standard output:
+
+Standard error:
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 1: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: MZ����@���: not found
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 2: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: $0�!UQ�rUQ�rUQ�rFY�rQ�rP]�rWQ�rP]�rBQ�rFY�rWQ�r�Y�rPQ�rUQ�r=Q�rP]�r�Q�r�Z�rTQ�rP]�rTQ�rRichUQ�rPEL��L�: not found
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 3: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: Syntax error: ")" unexpected
+
+!STACK 0
+java.lang.IllegalStateException: Process returned with error code "2".
+Command line arguments: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe -Xmx16m -classpath /home/accoica/Documents/eclipse/spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-linux.gtk.x86_64/sts-4.3.1.RELEASE/configuration/org.eclipse.osgi/238/0/.cp/lib/launchingsupport.jar org.eclipse.jdt.internal.launching.support.LibraryDetector
+Output: Standard output:
+
+Standard error:
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 1: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: MZ����@���: not found
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 2: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: $0�!UQ�rUQ�rUQ�rFY�rQ�rP]�rWQ�rP]�rBQ�rFY�rWQ�r�Y�rPQ�rUQ�r=Q�rP]�r�Q�r�Z�rTQ�rP]�rTQ�rRichUQ�rPEL��L�: not found
+/media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: 3: /media/accoica/data/Java/jdk1.6.0_22/bin/javaw.exe: Syntax error: ")" unexpected
+
+	at org.eclipse.jdt.internal.launching.StandardVMType.checkProcessResult(StandardVMType.java:914)
+	at org.eclipse.jdt.internal.launching.StandardVMType.generateLibraryInfo(StandardVMType.java:728)
+	at org.eclipse.jdt.internal.launching.StandardVMType.getLibraryInfo(StandardVMType.java:243)
+	at org.eclipse.jdt.internal.launching.StandardVMType.getDefaultLibraryLocations(StandardVMType.java:457)
+	at org.eclipse.jdt.internal.launching.StandardVMType.canDetectDefaultSystemLibraries(StandardVMType.java:267)
+	at org.eclipse.jdt.internal.launching.StandardVMType.validateInstallLocation(StandardVMType.java:661)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$5.run(StandardVMPage.java:201)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage.validateJRELocation(StandardVMPage.java:204)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage.access$1(StandardVMPage.java:183)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$2.modifyText(StandardVMPage.java:139)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1405)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2724)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2650)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$3.widgetSelected(StandardVMPage.java:157)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock.addVM(InstalledJREsBlock.java:738)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock.access$9(InstalledJREsBlock.java:735)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock$8.handleEvent(InstalledJREsBlock.java:488)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.widgetDefaultSelected(NewJavaProjectWizardPageOne.java:632)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.widgetSelected(NewJavaProjectWizardPageOne.java:622)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1560)
+	at org.eclipse.swt.widgets.Link.gtk_button_release_event(Link.java:394)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2222)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6814)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4166)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1429)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1585)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4661)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper$1.linkActivated(EmptyWorkspaceHelper.java:269)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2019-10-21 14:20:09.128
+!MESSAGE Failed to retrieve default libraries for /media/accoica/data/Java/jdk1.6.0_22
+
+!ENTRY org.eclipse.jdt.launching 4 4 2019-10-21 14:20:53.391
+!MESSAGE Process returned with error code "2".
+Command line arguments: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe -Xmx16m -classpath /home/accoica/Documents/eclipse/spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-linux.gtk.x86_64/sts-4.3.1.RELEASE/configuration/org.eclipse.osgi/238/0/.cp/lib/launchingsupport.jar org.eclipse.jdt.internal.launching.support.LibraryDetector
+Output: Standard output:
+
+Standard error:
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 1: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: MZ����@���: not found
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 2: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: $�o�eq�eq�eqY@�q�eqѓ�q�eqѓ�q�eq�v�q�eq�dq�eqѓ�qkeqѓ�q�eqѓ�q�eqRich�eqPEd�f�\�: not found
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 3: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: Syntax error: word unexpected (expecting ")")
+
+!STACK 0
+java.lang.IllegalStateException: Process returned with error code "2".
+Command line arguments: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe -Xmx16m -classpath /home/accoica/Documents/eclipse/spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-linux.gtk.x86_64/sts-4.3.1.RELEASE/configuration/org.eclipse.osgi/238/0/.cp/lib/launchingsupport.jar org.eclipse.jdt.internal.launching.support.LibraryDetector
+Output: Standard output:
+
+Standard error:
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 1: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: MZ����@���: not found
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 2: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: $�o�eq�eq�eqY@�q�eqѓ�q�eqѓ�q�eq�v�q�eq�dq�eqѓ�qkeqѓ�q�eqѓ�q�eqRich�eqPEd�f�\�: not found
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 3: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: Syntax error: word unexpected (expecting ")")
+
+	at org.eclipse.jdt.internal.launching.StandardVMType.checkProcessResult(StandardVMType.java:914)
+	at org.eclipse.jdt.internal.launching.StandardVMType.generateLibraryInfo(StandardVMType.java:728)
+	at org.eclipse.jdt.internal.launching.StandardVMType.getLibraryInfo(StandardVMType.java:240)
+	at org.eclipse.jdt.internal.launching.StandardVMType.getDefaultLibraryLocations(StandardVMType.java:457)
+	at org.eclipse.jdt.internal.launching.StandardVMType.canDetectDefaultSystemLibraries(StandardVMType.java:267)
+	at org.eclipse.jdt.internal.launching.StandardVMType.validateInstallLocation(StandardVMType.java:661)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$5.run(StandardVMPage.java:201)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage.validateJRELocation(StandardVMPage.java:204)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage.access$1(StandardVMPage.java:183)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$2.modifyText(StandardVMPage.java:139)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1405)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2724)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2650)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$3.widgetSelected(StandardVMPage.java:157)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock.addVM(InstalledJREsBlock.java:738)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock.access$9(InstalledJREsBlock.java:735)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock$8.handleEvent(InstalledJREsBlock.java:488)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.widgetDefaultSelected(NewJavaProjectWizardPageOne.java:632)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.widgetSelected(NewJavaProjectWizardPageOne.java:622)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1560)
+	at org.eclipse.swt.widgets.Link.gtk_button_release_event(Link.java:394)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2222)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6814)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4166)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1429)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1585)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4661)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper$1.linkActivated(EmptyWorkspaceHelper.java:269)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2019-10-21 14:20:53.394
+!MESSAGE Failed to retrieve default libraries for /media/accoica/data/Java/jdk1.8.0_201
+
+!ENTRY org.eclipse.jdt.launching 4 4 2019-10-21 14:20:53.403
+!MESSAGE Process returned with error code "2".
+Command line arguments: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe -Xmx16m -classpath /home/accoica/Documents/eclipse/spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-linux.gtk.x86_64/sts-4.3.1.RELEASE/configuration/org.eclipse.osgi/238/0/.cp/lib/launchingsupport.jar org.eclipse.jdt.internal.launching.support.LibraryDetector
+Output: Standard output:
+
+Standard error:
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 1: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: MZ����@���: not found
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 2: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: $�o�eq�eq�eqY@�q�eqѓ�q�eqѓ�q�eq�v�q�eq�dq�eqѓ�qkeqѓ�q�eqѓ�q�eqRich�eqPEd�f�\�: not found
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 3: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: Syntax error: word unexpected (expecting ")")
+
+!STACK 0
+java.lang.IllegalStateException: Process returned with error code "2".
+Command line arguments: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe -Xmx16m -classpath /home/accoica/Documents/eclipse/spring-tool-suite-4-4.3.1.RELEASE-e4.12.0-linux.gtk.x86_64/sts-4.3.1.RELEASE/configuration/org.eclipse.osgi/238/0/.cp/lib/launchingsupport.jar org.eclipse.jdt.internal.launching.support.LibraryDetector
+Output: Standard output:
+
+Standard error:
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 1: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: MZ����@���: not found
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 2: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: $�o�eq�eq�eqY@�q�eqѓ�q�eqѓ�q�eq�v�q�eq�dq�eqѓ�qkeqѓ�q�eqѓ�q�eqRich�eqPEd�f�\�: not found
+/media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: 3: /media/accoica/data/Java/jdk1.8.0_201/bin/javaw.exe: Syntax error: word unexpected (expecting ")")
+
+	at org.eclipse.jdt.internal.launching.StandardVMType.checkProcessResult(StandardVMType.java:914)
+	at org.eclipse.jdt.internal.launching.StandardVMType.generateLibraryInfo(StandardVMType.java:728)
+	at org.eclipse.jdt.internal.launching.StandardVMType.getLibraryInfo(StandardVMType.java:243)
+	at org.eclipse.jdt.internal.launching.StandardVMType.getDefaultLibraryLocations(StandardVMType.java:457)
+	at org.eclipse.jdt.internal.launching.StandardVMType.canDetectDefaultSystemLibraries(StandardVMType.java:267)
+	at org.eclipse.jdt.internal.launching.StandardVMType.validateInstallLocation(StandardVMType.java:661)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$5.run(StandardVMPage.java:201)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage.validateJRELocation(StandardVMPage.java:204)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage.access$1(StandardVMPage.java:183)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$2.modifyText(StandardVMPage.java:139)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1405)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2724)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2650)
+	at org.eclipse.jdt.internal.debug.ui.jres.StandardVMPage$3.widgetSelected(StandardVMPage.java:157)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock.addVM(InstalledJREsBlock.java:738)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock.access$9(InstalledJREsBlock.java:735)
+	at org.eclipse.jdt.internal.debug.ui.jres.InstalledJREsBlock$8.handleEvent(InstalledJREsBlock.java:488)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.widgetDefaultSelected(NewJavaProjectWizardPageOne.java:632)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageOne$JREGroup.widgetSelected(NewJavaProjectWizardPageOne.java:622)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1560)
+	at org.eclipse.swt.widgets.Link.gtk_button_release_event(Link.java:394)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2222)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6814)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6132)
+	at org.eclipse.swt.internal.gtk.GTK._gtk_main_do_event(Native Method)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(GTK.java:4166)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1429)
+	at org.eclipse.swt.internal.gtk.OS._g_main_context_iteration(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(OS.java:1585)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4661)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper$1.linkActivated(EmptyWorkspaceHelper.java:269)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2019-10-21 14:20:53.404
+!MESSAGE Failed to retrieve default libraries for /media/accoica/data/Java/jdk1.8.0_201
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-21 14:21:18.451
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [<project root> [in CyberTest] is not on its project's build path]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:599)
+	at org.eclipse.jdt.internal.corext.buildpath.ClasspathModifier.filtersSet(ClasspathModifier.java:659)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.DialogPackageExplorer$PackageLabelProvider.getForeground(DialogPackageExplorer.java:215)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getForeground(DelegatingStyledCellLabelProvider.java:143)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getForeground(DecoratingStyledCellLabelProvider.java:145)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:126)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:945)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:120)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1023)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:421)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2103)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:839)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:817)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:604)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:765)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalInitializeTree(AbstractTreeViewer.java:1584)
+	at org.eclipse.jface.viewers.TreeViewer.internalInitializeTree(TreeViewer.java:780)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$1(AbstractTreeViewer.java:1569)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1391)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1352)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.inputChanged(AbstractTreeViewer.java:1563)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:282)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1629)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.DialogPackageExplorer.setInput(DialogPackageExplorer.java:437)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.NewSourceContainerWorkbookPage.doUpdateUI(NewSourceContainerWorkbookPage.java:153)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.NewSourceContainerWorkbookPage.access$0(NewSourceContainerWorkbookPage.java:152)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.NewSourceContainerWorkbookPage$1.run(NewSourceContainerWorkbookPage.java:146)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5113)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4666)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:370)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1035)
+	at org.eclipse.jdt.internal.ui.wizards.NewElementWizard.performFinish(NewElementWizard.java:139)
+	at org.eclipse.jdt.internal.ui.wizards.JavaProjectWizard.performFinish(JavaProjectWizard.java:84)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:833)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:622)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.navigator.wizards.WizardShortcutAction.run(WizardShortcutAction.java:102)
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper$1.linkActivated(EmptyWorkspaceHelper.java:269)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:215)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:309)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:117)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5874)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1400)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5138)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:635)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1441)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2019-10-21 14:21:18.453
+!MESSAGE <project root> [in CyberTest] is not on its project's build path
+
+!ENTRY org.eclipse.ui 2 2 2019-10-21 14:21:20.773
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-21 14:22:50.948
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-21 14:22:50.954
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:26.296
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:26.314
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7d8ae9a[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=617)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:26.314
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:26.361
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-10-21 16:28:26.436
+!MESSAGE Invalid ZIP archive: lib/cybssecurity.jar [in CyberTest]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-10-21 16:28:27.923
+!MESSAGE Invalid ZIP archive: lib/cybssecurity.jar [in CyberTest]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-21 16:28:28.008
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-21 16:28:28.031
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.804
+!MESSAGE Boot LS startup time from start to initialized: 1692ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.908
+!MESSAGE Boot LS startup time from start to initialized: 1797ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.949
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SyFuAnaQisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.949
+!MESSAGE subscribing to classpath changes: sts4.classpath.SyFuAnaQ isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.953
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.960
+!MESSAGE subsribers = {sts4.classpath.SyFuAnaQ=Send Classpath Notifications(105)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.960
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.963
+!MESSAGE project CyberTest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.964
+!MESSAGE project PruebaCybersource ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.964
+!MESSAGE Preparing classpath changed notification CyberTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.964
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.964
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SyFuAnaQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.964
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.967
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.967
+!MESSAGE buffering callback sts4.classpath.SyFuAnaQ CyberTest false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.968
+!MESSAGE Preparing classpath changed notification PruebaCybersource
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.968
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.968
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.969
+!MESSAGE buffering callback sts4.classpath.SyFuAnaQ PruebaCybersource false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.969
+!MESSAGE executing callback sts4.classpath.SyFuAnaQ 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:28.998
+!MESSAGE executing callback sts4.classpath.SyFuAnaQ SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-10-21 16:28:30.801
+!MESSAGE Invalid ZIP archive: lib/cybssecurity.jar [in CyberTest]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-10-21 16:28:31.222
+!MESSAGE Invalid ZIP archive: lib/cybssecurity.jar [in CyberTest]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:33.303
+!MESSAGE Preparing classpath changed notification CyberTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:33.304
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:33.304
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:33.304
+!MESSAGE buffering callback sts4.classpath.SyFuAnaQ CyberTest false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:33.305
+!MESSAGE executing callback sts4.classpath.SyFuAnaQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:28:33.309
+!MESSAGE executing callback sts4.classpath.SyFuAnaQ SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-21 16:46:29.310
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-21 16:46:29.337
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:46:29.341
+!MESSAGE Preparing classpath changed notification CyberTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:46:29.341
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:46:29.342
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:46:29.342
+!MESSAGE buffering callback sts4.classpath.SyFuAnaQ CyberTest false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:46:29.342
+!MESSAGE executing callback sts4.classpath.SyFuAnaQ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-21 16:46:29.346
+!MESSAGE executing callback sts4.classpath.SyFuAnaQ SUCCESS [done]
+!SESSION 2019-10-23 13:48:34.250 -----------------------------------------------
+eclipse.buildId=4.3.1.201907120711-RELEASE
+java.version=11.0.4
+java.vendor=Debian
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-10-23 13:48:41.753
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.core 1 0 2019-10-23 13:48:43.153
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-10-23 13:48:44.034
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-10-23 13:48:44.034
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66e62fc4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e28f150,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:48.353
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:48.354
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@67af7b02[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=617)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:48.355
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:48.384
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.000
+!MESSAGE Boot LS startup time from start to initialized: 2633ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.042
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.alwSXYYxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.042
+!MESSAGE subscribing to classpath changes: sts4.classpath.alwSXYYx isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.044
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.046
+!MESSAGE subsribers = {sts4.classpath.alwSXYYx=Send Classpath Notifications(74)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.046
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.058
+!MESSAGE project PruebaCybersource ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.059
+!MESSAGE project CyberTest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.059
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.059
+!MESSAGE Preparing classpath changed notification PruebaCybersource
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.059
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.alwSXYYx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.059
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.064
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.065
+!MESSAGE buffering callback sts4.classpath.alwSXYYx PruebaCybersource false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.066
+!MESSAGE Preparing classpath changed notification CyberTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.066
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.067
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.067
+!MESSAGE buffering callback sts4.classpath.alwSXYYx CyberTest false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.068
+!MESSAGE executing callback sts4.classpath.alwSXYYx 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:48:51.119
+!MESSAGE executing callback sts4.classpath.alwSXYYx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:49:02.159
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.alwSXYYx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:49:02.159
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.alwSXYYx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:49:02.160
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-23 13:49:02.160
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.alwSXYYx => OK
+
+!ENTRY org.eclipse.ui 2 2 2019-10-23 13:49:02.462
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2019-10-24 15:48:04.336 -----------------------------------------------
+eclipse.buildId=4.3.1.201907120711-RELEASE
+java.version=11.0.4
+java.vendor=Debian
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -data /media/accoica/data/WORKS_SPACE/Alignet/CyberSourceCFX -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-10-24 15:48:07.833
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-10-24 15:48:08.800
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-10-24 15:48:08.800
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f5f8de2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6baee63b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:13.592
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:13.592
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@29aa29f5[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=617)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:13.593
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:13.626
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:15.890
+!MESSAGE Boot LS startup time from start to initialized: 2284ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:15.939
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SIUTAlFsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:15.939
+!MESSAGE subscribing to classpath changes: sts4.classpath.SIUTAlFs isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:15.942
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:15.943
+!MESSAGE subsribers = {sts4.classpath.SIUTAlFs=Send Classpath Notifications(72)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:15.943
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.028
+!MESSAGE project PruebaCybersource ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.029
+!MESSAGE project CyberTest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.029
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.029
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SIUTAlFs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.034
+!MESSAGE Preparing classpath changed notification PruebaCybersource
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.035
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.039
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.040
+!MESSAGE buffering callback sts4.classpath.SIUTAlFs PruebaCybersource false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.040
+!MESSAGE Preparing classpath changed notification CyberTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.041
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.041
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.042
+!MESSAGE buffering callback sts4.classpath.SIUTAlFs CyberTest false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.042
+!MESSAGE executing callback sts4.classpath.SIUTAlFs 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:16.083
+!MESSAGE executing callback sts4.classpath.SIUTAlFs SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2019-10-24 15:48:19.906
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:30.270
+!MESSAGE Preparing classpath changed notification PruebaCybersource
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:30.270
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:30.270
+!MESSAGE buffering callback sts4.classpath.SIUTAlFs PruebaCybersource true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:30.270
+!MESSAGE executing callback sts4.classpath.SIUTAlFs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:30.275
+!MESSAGE executing callback sts4.classpath.SIUTAlFs SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.core 4 0 2019-10-24 15:48:30.554
+!MESSAGE Invalid ZIP archive: lib/cybssecurity.jar [in CyberTest]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:31.003
+!MESSAGE Preparing classpath changed notification CyberTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:31.004
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:31.006
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:31.006
+!MESSAGE buffering callback sts4.classpath.SIUTAlFs CyberTest false 17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:31.006
+!MESSAGE executing callback sts4.classpath.SIUTAlFs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:31.014
+!MESSAGE executing callback sts4.classpath.SIUTAlFs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:34.705
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SIUTAlFs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:34.705
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SIUTAlFs
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:34.705
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:48:34.705
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SIUTAlFs => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-24 15:48:53.499
+!MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-24 15:48:53.507
+!MESSAGE The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-24 15:48:58.373
+!MESSAGE The POM for com.sun.xml.bind:jaxb-impl:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-24 15:48:58.381
+!MESSAGE The POM for com.sun.xml.bind:jaxb-core:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.576
+!MESSAGE Boot LS startup time from start to initialized: 1683ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.599
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PLAtGFraisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.600
+!MESSAGE subscribing to classpath changes: sts4.classpath.PLAtGFra isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.600
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.600
+!MESSAGE subsribers = {sts4.classpath.PLAtGFra=Send Classpath Notifications(106)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.600
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.601
+!MESSAGE project com.alignet.cybersource ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.601
+!MESSAGE project CyberTest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.601
+!MESSAGE Preparing classpath changed notification com.alignet.cybersource
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.601
+!MESSAGE project CyberTest SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.601
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.601
+!MESSAGE project PruebaCybersource ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.601
+!MESSAGE project PruebaCybersource SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.602
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.602
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PLAtGFra => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.603
+!MESSAGE classpath=77 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.603
+!MESSAGE buffering callback sts4.classpath.PLAtGFra com.alignet.cybersource false 77
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.603
+!MESSAGE executing callback sts4.classpath.PLAtGFra 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-10-24 15:49:19.626
+!MESSAGE executing callback sts4.classpath.PLAtGFra SUCCESS [done]
+
+!ENTRY org.springframework.ide.eclipse.xml.namespaces 2 0 2019-10-24 16:39:30.534
+!MESSAGE Plugin.internal_warning
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+	at org.springframework.ide.eclipse.xml.namespaces.util.TargetNamespaceScanner.getTargetNamespace(TargetNamespaceScanner.java:54)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.getTargetNamespace(ProjectClasspathUriResolver.java:183)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.init(ProjectClasspathUriResolver.java:135)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.<init>(ProjectClasspathUriResolver.java:55)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:174)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.getProjectResolver(ProjectClasspathExtensibleUriResolver.java:189)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.resolve(ProjectClasspathExtensibleUriResolver.java:111)
+	at org.eclipse.wst.common.uriresolver.internal.ExtensibleURIResolver.resolve(ExtensibleURIResolver.java:86)
+	at org.eclipse.wst.xml.core.internal.modelquery.XMLCatalogIdResolver.resolve(XMLCatalogIdResolver.java:94)
+	at org.eclipse.wst.xml.core.internal.modelquery.XMLModelQueryAssociationProvider.resolveGrammarURI(XMLModelQueryAssociationProvider.java:60)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.XMLAssociationProvider.resolveGrammarURI(XMLAssociationProvider.java:170)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl.lookupOrCreateResolvedURI(CMDocumentManagerImpl.java:124)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl.addCMDocumentReference(CMDocumentManagerImpl.java:206)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentLoader.handleGrammar(CMDocumentLoader.java:226)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentLoader$CMDocumentLoadingNamespaceTable.addElement(CMDocumentLoader.java:301)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentLoader.loadCMDocuments(CMDocumentLoader.java:131)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.InferredGrammarBuildingCMDocumentLoader.loadCMDocuments(InferredGrammarBuildingCMDocumentLoader.java:58)
+	at org.eclipse.wst.xml.ui.internal.DOMObserver.invokeCMDocumentLoad(DOMObserver.java:216)
+	at org.eclipse.wst.xml.ui.internal.DOMObserver$TimerJob.run(DOMObserver.java:147)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.xml.namespaces 2 0 2019-10-24 16:39:31.232
+!MESSAGE Plugin.internal_warning
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 16; columnNumber: 3; The markup in the document preceding the root element must be well-formed.
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:261)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+	at org.springframework.ide.eclipse.xml.namespaces.util.TargetNamespaceScanner.getTargetNamespace(TargetNamespaceScanner.java:54)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.getTargetNamespace(ProjectClasspathUriResolver.java:183)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.init(ProjectClasspathUriResolver.java:135)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathUriResolver.<init>(ProjectClasspathUriResolver.java:55)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:174)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver$1.call(ProjectClasspathExtensibleUriResolver.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.getProjectResolver(ProjectClasspathExtensibleUriResolver.java:189)
+	at org.springframework.ide.eclipse.xml.namespaces.internal.ProjectClasspathExtensibleUriResolver.resolve(ProjectClasspathExtensibleUriResolver.java:111)
+	at org.eclipse.wst.common.uriresolver.internal.ExtensibleURIResolver.resolve(ExtensibleURIResolver.java:86)
+	at org.eclipse.wst.xml.core.internal.modelquery.XMLCatalogIdResolver.resolve(XMLCatalogIdResolver.java:94)
+	at org.eclipse.wst.xml.core.internal.modelquery.XMLModelQueryAssociationProvider.resolveGrammarURI(XMLModelQueryAssociationProvider.java:60)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.XMLAssociationProvider.resolveGrammarURI(XMLAssociationProvider.java:170)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl.lookupOrCreateResolvedURI(CMDocumentManagerImpl.java:124)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl.addCMDocumentReference(CMDocumentManagerImpl.java:206)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentLoader.handleGrammar(CMDocumentLoader.java:226)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentLoader$CMDocumentLoadingNamespaceTable.addElement(CMDocumentLoader.java:301)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentLoader.loadCMDocuments(CMDocumentLoader.java:131)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.InferredGrammarBuildingCMDocumentLoader.loadCMDocuments(InferredGrammarBuildingCMDocumentLoader.java:58)
+	at org.eclipse.wst.xml.ui.internal.DOMObserver.invokeCMDocumentLoad(DOMObserver.java:216)
+	at org.eclipse.wst.xml.ui.internal.DOMObserver$TimerJob.run(DOMObserver.java:147)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

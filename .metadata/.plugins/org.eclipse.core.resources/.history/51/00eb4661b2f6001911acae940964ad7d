@@ -1,0 +1,23 @@
+package com.cybersource.schemas.transaction.data.transactionprocessor.main;
+
+import java.io.IOException;
+import java.util.Properties;
+
+public class InitialProp {
+
+	private final Properties properties;
+
+	InitialProp() {
+        properties = new Properties();
+        try {
+            properties.load(getClass().getClassLoader().getResourceAsStream("application.properties"));
+        } catch (IOException e) {
+            Logger.getLogger(getClass().getName()).log(Level.SEVERE, e.getMessage(), e);
+        }
+    }
+
+    public String getAppName() {
+        return properties.getProperty("app.name");
+    }
+	
+}

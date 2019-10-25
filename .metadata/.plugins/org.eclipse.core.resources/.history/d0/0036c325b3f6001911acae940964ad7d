@@ -1,0 +1,8 @@
+package com.cybersource.schemas.transaction.data.transactionprocessor.main;
+
+public class InitialProp {
+
+	public static void main(String[] args) {
+
+	}
+}

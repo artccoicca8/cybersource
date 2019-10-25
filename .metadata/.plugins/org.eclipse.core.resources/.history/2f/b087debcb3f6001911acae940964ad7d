@@ -1,0 +1,28 @@
+package com.cybersource.schemas.transaction.data.util;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class ApplicationProperties {
+
+	private static Properties properties=null;
+	private static final Logger logger = LoggerFactory.getLogger(ApplicationProperties.class);
+
+	private ApplicationProperties() {
+		properties = new Properties();
+		try {
+			properties.load(getClass().getClassLoader().getResourceAsStream("application.properties"));
+		} catch (IOException e) {
+			logger.info("Error ,", e.getCause());
+			e.printStackTrace();
+		}
+	}
+
+	public static String getAppName(String value) {
+		return properties.getProperty(value);
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.cybersource.schemas.transaction.data.util;
+
+public class ApplicationProperties {
+
+}

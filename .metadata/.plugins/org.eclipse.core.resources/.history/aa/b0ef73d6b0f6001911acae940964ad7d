@@ -1,0 +1,27 @@
+package com.cybersource.schemas.transaction.data.transactionprocessor.callback;
+
+import java.io.IOException;
+
+import javax.security.auth.callback.Callback;
+import javax.security.auth.callback.CallbackHandler;
+import javax.security.auth.callback.UnsupportedCallbackException;
+
+import org.apache.wss4j.common.ext.WSPasswordCallback;
+
+public class UTPasswordCallback implements CallbackHandler {
+
+	private static final String TRANSACTION_KEY = "tC2opyNicBFtnNVLumR+4JyQClzOzDlTqRuDx3Mm51kfA5BFd+y6JaMHrJwIQMr2FQTlvVZXNsLfolnu79Qc1K/wxSMttHJ3wM9QJU16L+5Qnjh3ejw9OhIB0LQUFkeam7pJ6olZn1tIdBNmGKSXySAAi9ATCfzke3AAxNxyiPhLa0Q7xITSS/KMK0ZfwePOrBBWVx+emR61b4qO8H9izMPXLuoxAr3JRT5UptBxfLha+IACZEZDNYOdEVhxMsZeXp3HOYRBkBES1nNxt7YLoTAkw0OD9E8/LWaBlPls0YPEuYoNMsXQ7B0uwKeFr578ylRc0ycwrTSPaGAuJwOHZg==\n" + 
+			"";
+
+	public void handle(Callback[] callbacks) throws IOException, UnsupportedCallbackException {
+		for (Callback callback : callbacks) {
+			WSPasswordCallback wpc = (WSPasswordCallback) callback;
+			if (wpc.getIdentifier().equals("cxf")) {
+				wpc.setPassword("cxf");
+				return;
+			}
+		}
+
+	}
+
+}

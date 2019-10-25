@@ -1,0 +1,27 @@
+package com.cybersource.schemas.transaction.data.transactionprocessor.main;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class InitialProp {
+
+	private final Properties properties;
+	private static final Logger logger = LoggerFactory.getLogger(InitialProp.class);
+
+	InitialProp() {
+        properties = new Properties();
+        try {
+            properties.load(getClass().getClassLoader().getResourceAsStream("application.properties"));
+        } catch (IOException e) {
+        	logger.info(getClass().getName()).log(Level.SEVERE, e.getMessage(), e);
+        }
+    }
+
+    public String getAppName() {
+        return properties.getProperty("app.name");
+    }
+	
+}

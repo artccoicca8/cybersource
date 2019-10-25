@@ -1,0 +1,15 @@
+package com.cybersource.schemas.transaction.data.transactionprocessor.main;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class InitialProp {
+	private static final Logger logger = LoggerFactory.getLogger(InitialProp.class);
+	
+	public static void main(String[] args) {
+
+	}
+}
