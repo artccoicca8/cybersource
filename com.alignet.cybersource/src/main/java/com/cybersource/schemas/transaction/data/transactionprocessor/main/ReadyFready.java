@@ -41,7 +41,7 @@ public class ReadyFready {
 		props.put(WSHandlerConstants.ACTION, WSHandlerConstants.USERNAME_TOKEN);
 		props.put(WSHandlerConstants.PASSWORD_TYPE, WSConstants.PW_TEXT);
 		props.put(WSHandlerConstants.PW_CALLBACK_CLASS, UTPasswordCallback.class.getName());
-		props.put(WSHandlerConstants.USER, "cxf");
+		props.put(WSHandlerConstants.USER, "ripley_pe");
 
 		WSS4JOutInterceptor wssOut = new WSS4JOutInterceptor(props);
 		endpoint.getOutInterceptors().add(wssOut);
@@ -52,7 +52,7 @@ public class ReadyFready {
 
 		// Before using this example, replace the generic value with
 		// your reference number for the current transaction.
-		request.setMerchantReferenceCode("your_merchant_reference_code");
+		request.setMerchantReferenceCode("111122561");
 
 		// To help us troubleshoot any problems that you may encounter,
 		// please include the following information about your application.

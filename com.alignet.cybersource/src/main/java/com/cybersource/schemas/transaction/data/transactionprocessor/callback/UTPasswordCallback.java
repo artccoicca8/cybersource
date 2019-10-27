@@ -19,10 +19,10 @@ public class UTPasswordCallback implements CallbackHandler {
 	
 	
 	public void handle(Callback[] callbacks) throws IOException, UnsupportedCallbackException {
-		logger.info("Salida Key ; "+ TRANSACTION_KEY);
+		logger.info("Salida Key : "+ TRANSACTION_KEY);
 		for (Callback callback : callbacks) {
 			WSPasswordCallback wpc = (WSPasswordCallback) callback;
-			if (wpc.getIdentifier().equals("cxf")) {
+			if (wpc.getIdentifier().equals("ripley_pe")) {
 				wpc.setPassword(TRANSACTION_KEY);
 				return;
 			}
